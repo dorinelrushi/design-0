@@ -1,0 +1,187 @@
+*{
+    margin : 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.flex-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.info , i , p{
+    display: flex;
+    margin: 0px 10px;
+    font-size: 15px;
+    flex-wrap: wrap;
+}
+i{
+    margin-top: 4px;
+}
+.flex-two{
+    background: rgb(43, 105, 156);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px;
+    align-self: center;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    flex-wrap: wrap;
+}
+.nText{
+    max-width: 600px;
+    margin-top: 5px;
+}
+.lm{
+    max-width: 600px;
+    margin-left: 0px;
+    margin-top: 15px;
+}
+
+.bodytitle{
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+}
+#btn{
+    width: 200px;
+    margin-top: 20px;
+    border: none;
+    height: 40px;
+    color: white;
+    border-radius: 3px;
+    background: rgb(25, 32, 59);
+    letter-spacing: 1px;
+    border: 3px solid rgb(25, 32, 59);
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#btn:hover{
+    border: 3px solid rgb(25, 32, 59);
+    background: none;
+    transition: 1s;
+    color: rgb(25, 32, 59);
+}
+
+.menu-flex{
+    width: 100%;
+   background: rgb(64, 146, 204);
+   display: flex;
+   align-content: center;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   padding: 15px;
+}
+
+.ul{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+.li{
+    
+    margin: 0px 20px;
+}
+
+.a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.demo{
+    color: rgb(64, 146,204);
+    text-align: center;
+    margin-top: 50px;
+}
+
+.bt {
+    width: 100px;
+    height: 28px;
+    border: none;
+    border-radius: 3px;
+    background: rgb(25, 32, 59);
+    letter-spacing: 1px;
+    border: 3px solid rgb(25, 32, 59);
+    font-size: 14px;
+    cursor: pointer;
+    color: white;
+}
+
+.bt:hover{
+    border: 3px solid rgb(25, 32, 59);
+    background: none;
+    transition: 1s;
+    color: rgb(25, 32, 59);
+}
+.box-flex{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    
+}
+.box1{
+    width:340px;
+    background:rgb(43, 105, 156); 
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+.box2{
+    width:340px;
+    background:rgb(43, 105, 156); 
+    text-align: center;
+    padding: 20px;
+    color: white;
+
+}
+.box3{
+    width:340px;
+    background:rgb(43, 105, 156); 
+    text-align: center;
+    padding: 20px;
+    color: white;
+
+}
+
+
+.bars{
+    display: none;
+}
+
+
+@media only screen and (max-width: 660px) {
+  
+    .bars{
+        display: block;
+        margin-left: 190px;
+  
+ 
+    }
+    .list ,.bt  {
+       display: none;
+      
+    }
+    
+  }
